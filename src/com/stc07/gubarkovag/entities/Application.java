@@ -12,6 +12,8 @@ public class Application implements Serializable {
     public enum Status {
         @XmlEnumValue("approved")
         APPROVED,
+        @XmlEnumValue("waiting")
+        WAITING,
         @XmlEnumValue("rejected")
         REJECTED
     }
